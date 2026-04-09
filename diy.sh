@@ -20,3 +20,4 @@ echo 'src-git qbee https://github.com/c0re100/qBittorrent-Enhanced-Edition' >>fe
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
 git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/ADGH
+echo 'src-git immortalwrt_packages https://github.com/immortalwrt/packages.git;openwrt-25.12' >> feeds.conf.default
