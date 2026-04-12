@@ -16,7 +16,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 echo 'src-git UA3F https://github.com/SunBK201/UA3F.git' >>feeds.conf.default
 echo 'src-git OpenList https://github.com/OpenListTeam/OpenList-OpenWRT' >>feeds.conf.default
 echo 'src-git qbee https://github.com/c0re100/qBittorrent-Enhanced-Edition' >>feeds.conf.default
-echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
+#echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
